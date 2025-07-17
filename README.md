@@ -75,7 +75,7 @@ df['price_per_room'] = df['median_house_value'] / df['total_rooms']
 
 # Risk assessment
 px.scatter(df, x='median_income', y='median_house_value',
-           color='affordability_ratio', facet_col='housing_median_age')
+           color='affordability_ratio')
 ```
 
 ### 4. 📊 Data Science & Machine Learning
